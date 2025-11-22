@@ -4,11 +4,11 @@ import logo from "../assets/logo/pixel-perfect.png";
 
 export default function SplashScreen() {
   const [isVisible, setIsVisible] = useState(true);
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState("dark");
 
   // 🔹 Load theme from localStorage
   useEffect(() => {
-    const savedTheme = localStorage.getItem("theme") || "light";
+    const savedTheme = localStorage.getItem("theme") || "dark";
     setTheme(savedTheme);
     document.documentElement.classList.toggle("dark", savedTheme === "dark");
   }, []);
