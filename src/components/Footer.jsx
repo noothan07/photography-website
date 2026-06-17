@@ -54,7 +54,7 @@ function Footer() {
               rel="noopener noreferrer"
               className="flex items-center justify-center text-gray-800 dark:text-gray-200 hover:text-pink-600 border active:text-pink-600 p-2 rounded-sm press"
             >
-              <Instagram size={28} />
+              <Instagram size={28} className="text-pink-600" />
             </a>
 
             {/* YouTube */}
@@ -64,7 +64,7 @@ function Footer() {
               rel="noopener noreferrer"
               className="flex items-center justify-center text-gray-800 dark:text-gray-200 hover:text-red-500 active:text-red-500 border p-2 rounded-sm press"
             >
-              <FaYoutube size={28} />
+              <FaYoutube size={28} className="text-red-500" />
             </a>
 
             {/* WhatsApp */}
@@ -74,7 +74,7 @@ function Footer() {
               rel="noopener noreferrer"
               className="flex items-center justify-center text-gray-800 dark:text-gray-200 hover:text-green-500 active:text-green-500 border p-2 rounded-sm press"
             >
-              <FaWhatsapp size={28} />
+              <FaWhatsapp size={28} className="text-green-500" />
             </a>
           </div>
         </div>

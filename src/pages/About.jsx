@@ -42,12 +42,7 @@ export default function About() {
     <section className="text-gray-800 dark:text-gray-100 pb-40">
       
       <div className=" w-full mx-auto flex flex-col md:flex-row items-center gap-10 md:px-35 px-5 pt-40 md:pb-30 pb-10">
-        {/* 🌿 Abstract gradient background
-          <div className="absolute inset-0 ">
-            <div className="absolute w-[500px] h-[500px] rounded-full blur-[100px] opacity-10 bg-yellow-300 -top-32 -left-20"></div>
-            <div className="absolute w-[400px] h-[400px] rounded-full blur-[120px] opacity-20 bg-pink-400 bottom-0 right-0"></div>
-            <div className="absolute w-[300px] h-[300px] rounded-full blur-[100px] opacity-20 bg-blue-400 top-20 right-1/3"></div>
-          </div> */}
+        
         
         {/* Left Text Section */}
         <div
@@ -90,7 +85,7 @@ export default function About() {
           <img
             src={founderImg}
             alt="Founder"
-            className="rounded-2xl w-100 h-100 object-cover shadow-2xl"
+            className="rounded-2xl w-150 h-120 object-cover shadow-2xl"
           />
         </div>
       </div>
@@ -100,6 +95,7 @@ export default function About() {
 
       {/* Why Choose Us */}
       <div className="md:px-30">
+        
         <h1 className=" pt-5 text-center text-black dark:text-white font-bold text-4xl md:text-5xl poppins">why choose us</h1>
         <div className="pt-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 w-full mx-auto px-6">
           {whyChoose.map((item, i) => (

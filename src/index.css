@@ -2,6 +2,21 @@
 @import "tailwindcss";
 @custom-variant dark (&:where(.dark, .dark *));
 
+@keyframes bubble-float {
+  0% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -150%) scale(0.5);
+  }
+}
+
+.animate-bubble-float {
+  animation: bubble-float 2s ease-out forwards;
+}
+
 html {
   background-color: #feffef; ;
 }
@@ -34,12 +49,12 @@ html, body, #root {
   font-family: 'schibsted grotesk';
   letter-spacing: 0.1em;
 }
-.stroke{
+/* .stroke{
   -webkit-text-stroke: 1px rgb(70, 70, 70);
   color: transparent;
-}
-.stroke1{
-  -webkit-text-stroke: 1px rgb(255, 208, 0);
+} */
+.stroke{
+  -webkit-text-stroke: 0.5px rgb(255, 208, 0);
   color: transparent;
 }
 .press{

@@ -9,6 +9,7 @@ import Services from './pages/Services.jsx'
 import Contact from './pages/Contact.jsx'
 import About from './pages/About.jsx'
 import Footer from './components/Footer.jsx'
+import CursorEffect from './components/CursorEffect.jsx'
 import { Routes, Route } from "react-router-dom";
 import { useState, useEffect } from "react";
 
@@ -26,6 +27,7 @@ function App() {
       {showSplash && <SplashScreen />}
       {!showSplash && (
         <section>
+          <CursorEffect />
           <ScrollToTop />
           <Navbar />
             <Routes>
