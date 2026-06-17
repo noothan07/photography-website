@@ -82,7 +82,7 @@ export default function StatsSection() {
         {/* Middle Section */}
         <div className="flex flex-col md:items-start w-full md:w-auto border md:border-none dark:border-white/35 border-yellow-200 rounded-2xl py-2 dark:bg-[#1e1e00] bg-[#fffef1] md:dark:bg-transparent md:bg-transparent">
           <div className="flex items-baseline justify-center md:justify-start">
-            <h2 className="text-[4rem] md:text-[6rem] font-extrabold  leading-none stroke1">
+            <h2 className="text-[4rem] md:text-[6rem] font-extrabold  leading-none stroke">
               {counts[1]}
             </h2>
             <span className="text-[2rem] font-bold text-[#ffc107] ml-2 stroke1">+</span>
