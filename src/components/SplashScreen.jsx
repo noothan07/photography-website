@@ -57,7 +57,7 @@ export default function SplashScreen() {
               theme === "dark" ? "text-gray-100" : "text-gray-900"
             }`}
           >
-            <span className="text-red-500">D</span>ilshad <span className="text-red-500">f</span>otography
+            <span className="text-red-500">D</span>ilshad <span className="text-red-500">p</span>hotography
           </motion.h1>
         </motion.div>
       )}

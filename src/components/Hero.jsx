@@ -46,7 +46,7 @@ export default function Hero() {
           viewport={{ once:false }}
         >
           <p>BY</p>
-          <p className="island-moments-regular font-extralight text-lg md:text-3xl dark:text-white text-black"><span className="text-red-500">D</span>ilshad <span className="text-red-500">f</span>otography</p>
+          <p className="island-moments-regular font-extralight text-lg md:text-3xl dark:text-white text-black"><span className="text-red-500">D</span>ilshad <span className="text-red-500">p</span>hotography</p>
         </motion.div>
       </div>
 

@@ -12,6 +12,7 @@ import Footer from './components/Footer.jsx'
 import CursorEffect from './components/CursorEffect.jsx'
 import { Routes, Route } from "react-router-dom";
 import { useState, useEffect } from "react";
+import FloatingWhatsApp from './components/FloatingWhatsApp.jsx'
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
         <section>
           <CursorEffect />
           <ScrollToTop />
+          <FloatingWhatsApp />
           <Navbar />
             <Routes>
               <Route path="/" element={<Home />} />

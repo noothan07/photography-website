@@ -330,16 +330,15 @@ class App {
       widthSegments: 50
     });
   }
-  //https://res.cloudinary.com/dtosuksvd/image/upload/v1761638393/samples/landscapes/beach-boat.jpg
   
   createMedias(items, bend = 1, textColor, borderRadius, font) {
     const defaultItems = [
       { image: 'https://res.cloudinary.com/dtosuksvd/image/upload/c_fill,w_1000,h_1000,q_80/v1762262945/y7m1yzopfjlwy2uparxb.png', text: 'Wedding' },
-      { image: 'https://res.cloudinary.com/dtosuksvd/image/upload/c_fill,w_1000,h_900,q_80/v1762262945/er2dhkxlsdkbyyrk5d0g.jpg', text: 'Birthday' },
+      { image: 'https://res.cloudinary.com/dtosuksvd/image/upload/c_fill,w_1000,h_1500,q_80/v1782451981/rjvlmdl5csfnufxfipar.jpg', text: 'Birthday' },
       { image: 'https://res.cloudinary.com/dtosuksvd/image/upload/c_fill,w_1000,h_1500,q_80/v1762262945/dt8vvtfr0avwwteainfb.jpg', text: 'Pre-Wedding' },
-      { image: 'https://res.cloudinary.com/dtosuksvd/image/upload/c_fill,w_1000,h_1500,q_80/v1762262945/y7qbdddrlqukpamrqhyu.jpg', text: 'half saree' },
-      { image: 'https://res.cloudinary.com/dtosuksvd/image/upload/c_fill,w_1000,h_1500,q_80/v1762262945/hbxmzl3akhyfx1zsxmbr.jpg', text: 'Portraits' },
-      { image: 'https://res.cloudinary.com/dtosuksvd/image/upload/c_fill,w_1500,h_1500,q_80/v1761638393/samples/landscapes/beach-boat.jpg', text: 'Drone Shots' }
+      { image: 'https://res.cloudinary.com/dtosuksvd/image/upload/c_fill,w_1000,h_1500,q_80/v1782447923/a8xfjioxzocj9v7ag1af.jpg', text: 'half saree' },
+      { image: 'https://res.cloudinary.com/dtosuksvd/image/upload/c_fill,w_1500,h_1500,q_80/v1761638393/samples/landscapes/beach-boat.jpg', text: 'Drone Shots' },
+      { image: 'https://res.cloudinary.com/dtosuksvd/image/upload/c_fill,w_1000,h_1500,q_80/v1782449660/jbm1nefr2kqgupopopoi.jpg', text: 'Portraits' }
     ];
     const galleryItems = items && items.length ? items : defaultItems;
     this.mediasImages = galleryItems.concat(galleryItems);

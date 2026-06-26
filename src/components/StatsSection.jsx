@@ -2,9 +2,9 @@ import React, { useEffect, useState, useRef } from "react";
 import { motion } from "framer-motion";
 
 const stats = [
-  { value: 4, label: "YEARS OF EXPERIENCE" },
-  { value: 150, label: "WEDDINGS & EVENTS" },
-  { value: 80, label: "HAPPY CLIENTS" },
+  { value: 5, label: "YEARS OF EXPERIENCE" },
+  { value: 170, label: "WEDDINGS & EVENTS" },
+  { value: 90, label: "HAPPY CLIENTS" },
 ];
 
 export default function StatsSection() {
