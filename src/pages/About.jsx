@@ -60,7 +60,7 @@ export default function About() {
             Welcome to <span className="font-semibold">Pixel Perfect Studio </span>
             your friendly neighborhood creative space where we turn your
             favorite moments into stunning visual stories. Founded in{" "}
-            <span className="text-yellow-500">October 2025</span>, our mission
+            <span className="text-yellow-500">October 2020</span>, our mission
             to make every picture a memory worth framing!
           </p>
 
